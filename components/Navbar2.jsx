@@ -57,7 +57,7 @@ const Navbar2 = () => {
           ))}
         </div>
       <div>
-          <button type='button' onClick={() => setIsOpen(!isOpen)} className='sm:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'>
+          <button type='button' onClick={() => setIsOpen(!isOpen)} className='sm:hidden flex ml-auto items-center justify-end rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'>
             <span className='sr-only'>Open main menu</span>
             {isOpen ? (
               <XMarkIcon className="block h-6 w-6 " aria-hidden="true" />
@@ -81,16 +81,6 @@ const Navbar2 = () => {
                 ))}
               </div>
             </div>
-
-            /*<div className='flex-row'>
-              {menu_list.map((item) => (
-                  <Link href={item.href} key={item.name}>
-                    {item.name}
-                  </Link>
-                ))}
-            </div>*/
-
-
           )}
         </div>
       </div>
