@@ -5,7 +5,7 @@ import Navbar2 from '../components/Navbar2';
 export default function Home() {
   return (
     <div className="bg-primary-black overflow-hidden">
-      <Navbar2 />
+      <Navbar />
     </div>
   )
 }

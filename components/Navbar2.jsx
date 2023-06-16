@@ -2,13 +2,11 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import NavItem from './NavItem';
 import { motion } from 'framer-motion';
 import { navVariants } from '../utils/motion';
 import styles from '../styles';
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
 
 const menu_list = [
   { name: 'Home', href: '/', current: true },
@@ -20,7 +18,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-const Navbar2 = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return(
@@ -67,7 +65,7 @@ const Navbar2 = () => {
           </button>
           {isOpen && (
 
-            <div className='space-y-1 px-2 pb-3 pt-2'>
+            <div className='xl:hidden sm:hidden bg:hidden md:hidden space-y-1 px-2 pb-3 pt-2'>
               <div className='rounded-md ring-1 ring-black ring-opacity-5 overflow-hidden'>
                 {menu_list.map((item) => (
                   <Link href={item.href} key={item.name} className={classNames(
@@ -88,4 +86,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2;
+export default Navbar;
