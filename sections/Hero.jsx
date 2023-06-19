@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:px-16 px-6`}>
@@ -21,7 +23,6 @@ const Hero = () => (
           variants={textVariant(1.2)}
           className='flex flex-row justify-center items-center'
         >
-          <h1 className={styles.heroHeading}>ACCESSORIES</h1>
         </motion.div>
       </div>
 
@@ -35,6 +36,18 @@ const Hero = () => (
           alt="hero cover"
           className='w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative'
         /> 
+
+        <Link href="#explore">
+          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 sm:w-[155px] sm:h-[155px] h-[100px]">
+              <Image
+                src="/stamp.png"
+                alt="stamp"
+                width={100}
+                height={100}
+                className=" object-contain"
+              />
+            </div>
+        </Link>
       </motion.div>
     </motion.div>
   </section>
