@@ -31,23 +31,29 @@ const Hero = () => (
         className='relative w-full md:-mt-[20px] -mt-[12px]'
       >
         <div className='absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]' />
-        <img
-          src="/cover.png"
-          alt="hero cover"
-          className='w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative'
-        /> 
-
-        <Link href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 sm:w-[155px] sm:h-[155px] h-[100px]">
-              <Image
-                src="/stamp.png"
-                alt="stamp"
-                width={100}
-                height={100}
-                className=" object-contain"
-              />
-            </div>
-        </Link>
+        <div className='w-full flex sm:h-[500px] h-[350px] rounded-tl-[140px] relative'>
+          <Image
+            src="/cover.png"
+            alt="hero cover"
+            fill
+            className='object-cover rounded-tl-[140px] rounded-[80px] relative'
+          />
+          <motion.h1 
+            variants={textVariant(1.5)}
+            className={`${styles.heroText} z-10 flex`}>
+            Welcome to X where we do Y for you
+          </motion.h1>
+        </div> 
+        <div className='flex justify-center py-4 px-6'>
+          <Link href="#explore" className='mr-2 z-30'>
+            <button className='bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded justify-center'>
+              Get Started
+            </button>
+          </Link>
+          <Link href="#" className="ml-2 px-4 py-2 font-semibold leading-6 justify-center text-gray-300 hover:bg-gray-700 hover:text-white rounded">
+                  Learn more <span aria-hidden="true">→</span>
+          </Link>
+        </div>
       </motion.div>
     </motion.div>
   </section>
