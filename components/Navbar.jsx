@@ -26,7 +26,7 @@ const Navbar = () => {
       variants={navVariants}
       initial='hidden'
       whileInView='show'
-      className={`${styles.xPaddings} py-8 relative z-30`}
+      className={`${styles.xPaddings} py-8 sticky z-30`}
     >
       <div className='absolute w-[50%] inset-0 gradient-01' />
       <div className={`${styles.innerWidth} flex justify-between sm:px-16 px-6`}>
