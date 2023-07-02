@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Hero from '@/sections/Hero';
 import About from '@/sections/About';
 import Explore from '@/sections/Explore';
+import GetStarted from '@/sections/GetStarted';
+import WhatsNew from '@/sections/WhatsNew';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       </div>
       <div  className='relative'>
         <GetStarted />
+        <div className="gradient-04 z-0" />
+        <WhatsNew />
       </div>
     </div>
   )
