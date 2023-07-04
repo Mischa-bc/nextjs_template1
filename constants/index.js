@@ -46,3 +46,24 @@ export const newFeatures = [
         'In the latest update...',
   },
 ];
+
+export const insights = [
+  {
+    imgUrl: '/img-01.png',
+    title: 'The launch of the Acme makes me happy',
+    subtitle:
+        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+  },
+  {
+    imgUrl: '/img-02.png',
+    title: '7 tips to easily master the way',
+    subtitle:
+        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+  },
+  {
+    imgUrl: '/img-03.png',
+    title: 'With one platform you can do it all',
+    subtitle:
+        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+  },
+];
