@@ -26,7 +26,7 @@ const Navbar = () => {
       variants={navVariants}
       initial='hidden'
       whileInView='show'
-      className={`${styles.xPaddings} bg-primary-black py-4 sticky z-30 top-0 inset-x-0`}
+      className={`${styles.xPaddings} bg-primary-ivory py-4 sticky z-30 top-0 inset-x-0`}
     >
       <div className='absolute w-[50%] inset-0 gradient-01' />
       <div className={`${styles.innerWidth} flex justify-between sm:px-16 px-6`}>
@@ -40,7 +40,7 @@ const Navbar = () => {
               className='object-contain'
             />
           </Link>
-          <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-white px-6'>
+          <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-charcoal px-6'>
             TITLE
           </h2>
         </div>

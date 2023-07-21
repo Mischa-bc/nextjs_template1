@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-primary-black overflow-hidden">
+    <div className="bg-primary-ivory overflow-hidden">
       <Navbar />
       <Hero />
       <div className='relative'>
