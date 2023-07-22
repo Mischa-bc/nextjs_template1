@@ -31,13 +31,13 @@ const Navbar = () => {
       <div className='absolute w-[50%] inset-0 gradient-01' />
       <div className={`${styles.innerWidth} flex justify-between sm:px-16 px-6`}>
         <div className='flex justify-start'>
-          <Link href='/' className='z-30 opacity-50 hover:opacity-100'>
+          <Link href='/' className='z-30 opacity-100 hover:opacity-50'>
             <Image
               src='/headset.svg'
               alt='logo'
               width={30}
               height={30}
-              className='object-contain'
+              className='object-contain filter brightness-0'
             />
           </Link>
           <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-charcoal px-6'>
