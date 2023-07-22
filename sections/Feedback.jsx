@@ -20,15 +20,15 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-green-700">
             John Doe
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
+          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-green-700">
             Founder Acme
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
+        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-green-700">
           Morbi faucibus ac lorem vitae auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis volutpat mi, ac viverra leo. Nulla erat orci, eleifend eget feugiat sed, finibus et eros.
         </p>
       </motion.div>

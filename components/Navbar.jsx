@@ -40,7 +40,7 @@ const Navbar = () => {
               className='object-contain filter brightness-0'
             />
           </Link>
-          <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-charcoal px-6'>
+          <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-green-700 px-6'>
             TITLE
           </h2>
         </div>

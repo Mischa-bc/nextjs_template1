@@ -21,9 +21,9 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
+        className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-green-900'
       >
-        <span>Acme</span> is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <span className="font-extrabold text-white">commodo</span> lobortis sem sed pulvinar. Phasellus viverra libero eu erat tempor, eget <span className="font-extrabold text-white">mollis </span> arcu consequat. Nunc felis ante, molestie sed lorem id, sodales venenatis neque. Sed scelerisque sollicitudin risus, et <span className="font-extrabold text-white">dapibus</span> neque mattis egestas. Morbi non gravida augue. Nam condimentum volutpat pretium. Keep scrolling to learn more.
+        <span>Acme</span> is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <span className="font-extrabold text-green-800">commodo</span> lobortis sem sed pulvinar. Phasellus viverra libero eu erat tempor, eget <span className="font-extrabold text-green-800">mollis </span> arcu consequat. Nunc felis ante, molestie sed lorem id, sodales venenatis neque. Sed scelerisque sollicitudin risus, et <span className="font-extrabold text-green-800">dapibus</span> neque mattis egestas. Morbi non gravida augue. Nam condimentum volutpat pretium. Keep scrolling to learn more.
       </motion.p>
 
       <motion.div
@@ -34,7 +34,7 @@ const About = () => (
           alt='arrow down'
           width={27}
           height={42}
-          className='object-contain mt-[28px]'
+          className='object-contain mt-[28px] filter brightness-0'
         />
       </motion.div>
 

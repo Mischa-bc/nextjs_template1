@@ -16,10 +16,10 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+        <h4 className="font-bold md:text-[64px] text-[44px] text-green-700">
           Enter Acme
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#007D56] rounded-[32px] gap-[12px]">
           <Image 
             src="/headset.svg"
             alt="headset"
@@ -37,10 +37,10 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
+          <h4 className="font-extrabold text-[24px] text-green-700">
             ACME
           </h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
+          <p className="font-normal text-[14px] text-green-700 opacity-50">
           Copyright © 2022 - 2023 Acme. All rights reserved.
           </p>
 
@@ -52,7 +52,7 @@ const Footer = () => (
                 alt={social.name}
                 height={24}
                 width={24}
-                className="object-contain cursor-pointer"
+                className="object-contain cursor-pointer filter brightness-0"
               />
             ))}
           </div>

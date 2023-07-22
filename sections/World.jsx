@@ -29,7 +29,7 @@ const World = () => (
           className="object-cover"
         />
 
-        <div className="absolute bottom-20 right-20 p-[6px] rounded-full bg-[#5D6680]">
+        <div className="absolute bottom-20 right-20 p-[6px] rounded-full bg-[#007D56]">
           <Image 
             src='/people-01.png'
             alt="people"
@@ -37,7 +37,7 @@ const World = () => (
             height={70}
           />
         </div>
-        <div className="absolute top-10 left-10 p-[6px] rounded-full bg-[#5D6680]">
+        <div className="absolute top-10 left-10 p-[6px] rounded-full bg-[#007D56]">
         <Image 
             src='/people-02.png'
             alt="people"
@@ -45,7 +45,7 @@ const World = () => (
             height={70}
           />
         </div>
-        <div className="absolute top-1/2 left-[45%] p-[6px] rounded-full bg-[#5D6680]">
+        <div className="absolute top-1/2 left-[45%] p-[6px] rounded-full bg-[#007D56]">
           <Image 
             src='/people-03.png'
             alt="people"

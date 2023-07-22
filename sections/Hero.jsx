@@ -46,11 +46,11 @@ const Hero = () => (
         </div> 
         <div className='flex justify-center py-4 px-6'>
           <Link href="#explore" className='mr-2 z-30'>
-            <button className='bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded justify-center'>
+            <button className='bg-green-300 hover:bg-green-700 text-white font-bold py-2 px-4 rounded justify-center'>
               Get Started
             </button>
           </Link>
-          <Link href="#" className="ml-2 px-4 py-2 font-semibold leading-6 justify-center text-gray-300 hover:bg-gray-700 hover:text-white rounded">
+          <Link href="#" className="ml-2 px-4 py-2 font-semibold leading-6 justify-center text-green-700 hover:bg-green-700 hover:text-white rounded">
                   Learn more <span aria-hidden="true">→</span>
           </Link>
         </div>
