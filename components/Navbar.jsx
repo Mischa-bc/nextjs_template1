@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className='hidden lg:flex space-x-4 justify-end ml-auto'>
           {menu_list.map((item) => (
             <Link href={item.href} key={item.name} className={classNames(
-              item.current ? 'bg-green-300 text-white' : 'text-green-900 hover:bg-green-300 hover:text-white',
+              item.current ? 'bg-green-300 text-white' : 'text-green-700 hover:bg-green-300 hover:text-white',
               'rounded-md px-3 py-2 text-sm font-medium z-30'
             )}
             aria-current={item.current ? 'page' : undefined}
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
       <div>
       <div className='lg:hidden flex items-center'>
-          <button type='button' onClick={() => setIsOpen(!isOpen)} className='lg:hidden flex ml-auto items-center justify-end rounded-md p-2 text-green-900 hover:bg-green-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'>
+          <button type='button' onClick={() => setIsOpen(!isOpen)} className='lg:hidden flex ml-auto items-center justify-end rounded-md p-2 text-green-700 hover:bg-green-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'>
             <span className='sr-only'>Open main menu</span>
             {isOpen ? (
               <XMarkIcon className="block h-6 w-6 " aria-hidden="true" />
@@ -72,7 +72,7 @@ const Navbar = () => {
               <div className='rounded-md ring-1 ring-black ring-opacity-5 overflow-hidden'>
                 {menu_list.map((item) => (
                   <Link href={item.href} key={item.name} className={classNames(
-                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        item.current ? 'bg-green-300 text-white' : 'text-green-700 hover:bg-green-300 hover:text-white',
                         'block px-4 py-2 text-sm'
                       )}
                       aria-current={item.current ? 'page' : undefined}
